@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Archivo&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Fredericka+the+Great|Merriweather:400,900|Six+Caps|Special+Elite&display=swap");
+
+body {
+  color: #606060;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+  background: #ffffff;
+  font-size: .975rem;
+  overflow-x: hidden; }
+
+
+  @media (min-width: 50em) {
+    body {
+      font-size: 1.5rem; }
+     }
+
+
+.hero {
+
+  /* background-repeat: repeat; */
+  background-attachment: fixed;
+  background-image: url("../img/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 3em;
+  margin-top: -2em;
+}
+  .hero img {
+    max-height: 70vh;
+  }
+
+  @media (max-width: 50em) {
+    .hero img {
+      max-height: 40vh;
+    }
+  }
+
+  h1, h2, h3, p {
+    margin-top: 0;
+    margin-bottom: 1em; }
+
+  h1 {
+    font-size: 3.125rem;
+    letter-spacing: 0;
+    color: #7E94BF;
+    text-transform: upppercase;
+    line-height: 1;
+    font-family: "Archivo", sans-serif;
+    font-weight: 400; }
+    @media (min-width: 50em) {
+      h1 {
+        font-size: 4.75rem; } }
+
+  h2 {
+    font-size: 2rem;
+    color: #606060;
+    text-transform: upppercase;
+    line-height: 1;
+    font-family: "Archivo", sans-serif;
+    font-weight: 400; }
+
+    @media (min-width: 50em) {
+      h2 {
+        font-size: 3rem; }
+      }
+
+.navbar {
+  background: #FFFFFF;
+}
+
+.navbar-brand {
+  background: #7E94BF;
+  color: #FFFFFF !important;
+}
+
+ul li a {
+  color: #7E94BF !important;
+  font-size: 1.2em;
+
+}
+
+/* .jumbotron {
+  background-color: #FFFFFF;
+} */
+
+
+.btn-h1-spacing {
+  margin-top: 18px;
+}
+
+.form-spacing-top {
+  margin-top: 30px;
+
+}
+
+.comment {
+  margin-bottom: 45px;
+  margin-top: 45px;
+}
+
+.author-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  float: left;
+}
+
+.author-name {
+  float: left;
+  margin-left: 15px;
+}
+
+.author-name>h4 {
+  margin: 5px 0px;
+}
+
+.author-time {
+  font-size: 11px;
+  font-style: italic;
+  color: #aaa;
+}
+
+.comment-content {
+  clear:both;
+  margin-left: 65px;
+  font-size: 16px;
+  line-height: 1.3em;
+}
+
+.comments-title>span {
+  margin-right: 15px;
+}
+
+#backend-comments {
+  margin-top: 50px;
+}
