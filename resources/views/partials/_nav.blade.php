@@ -18,7 +18,6 @@
         <li class="{{ Request::is('blog') ? "active" : "" }}"><a href="/blog">blog</a></li>
         <li class="{{ Request::is('about') ? "active" : "" }}"><a href="/about">about me</a></li>
         <li class="{{ Request::is('contact') ? "active" : "" }}"><a href="/contact">contact</a></li>
-        <li class="{{ Request::is('find') ? "active" : "" }}"><a href="/find">find</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         @if(Auth::check())
@@ -34,7 +33,7 @@
           </li>
           @else
           <!-- <a href="{{ route('login') }}" class="btn btn-default">Register</a> -->
-          <a href="{{ route('login') }}" class="btn btn-default">login</a>
+          <a href="{{ route('login') }}" class="btn btn-default login">login</a>
         @endif
 
 

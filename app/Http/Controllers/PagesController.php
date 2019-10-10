@@ -25,9 +25,7 @@ class PagesController extends Controller
         return view('/pages/contact');
     }
 
-    public function getFind() {
-        return view('/pages/find');
-    }
+    
 
   public function postContact(Request $request) {
     $this->validate($request, [

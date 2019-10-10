@@ -7,14 +7,10 @@ body {
   font-family: "Roboto", sans-serif;
   line-height: 1.6;
   background: #ffffff;
-  font-size: .975rem;
-  overflow-x: hidden; }
+  font-size: 1.5rem;
+  overflow-x: hidden;
 
-
-  @media (min-width: 50em) {
-    body {
-      font-size: 1.5rem; }
-     }
+}
 
 
 .hero {
@@ -141,4 +137,30 @@ ul li a {
 
 #backend-comments {
   margin-top: 50px;
+}
+
+.login {
+  background-color: #7E94BF;
+  color: #ffffff;
+  margin-top: .5em;
+}
+
+/* Start of the contact me section */
+
+.Contact {
+  width: 100%;
+  /* margin: 0 auto; */
+  padding: 2em 0 2em 0;
+  text-align: center;
+}
+
+.Contact a {
+  text-decoration: none;
+  padding: .5em;
+  color: #606060;
+}
+
+.Contact i {
+  padding-right: .3em;
+  color: #7E94BF ;
 }
